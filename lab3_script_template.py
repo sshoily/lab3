@@ -9,7 +9,6 @@ def main():
     process_sales_data(sales_csv, orders_dir)
 
 def get_sales_csv():
-    # Check whether command line parameter is provided
     if len(sys.argv) < 2:
         print("ERROR: MISSING CSV FILE PATH.")
         sys.exit(1)
